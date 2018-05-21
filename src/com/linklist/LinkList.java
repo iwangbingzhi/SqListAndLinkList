@@ -2,7 +2,7 @@ package com.linklist;
 
 import java.util.Scanner;
 
-public class LinkList implements LinkListDemo.IList {
+public class LinkList implements IList {
     public Node head;
 
     public LinkList() {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TestLinkList {
     public static void main(String[] args) throws Exception {
         TestLinkList testLinkList = new TestLinkList();
-        testLinkList.removetest();
+        testLinkList.zhijieqianqu();
     }
     private void zhijieqianqu() throws Exception {
         int n = 10;
@@ -44,9 +44,9 @@ public class TestLinkList {
                 }else {
                     ++order;
                 }
-                q = q.next();
+      /*          q = q.next();*/
             }
-            p = p.next;
+          /*  p = p.next;*/
         }
     }
 }
